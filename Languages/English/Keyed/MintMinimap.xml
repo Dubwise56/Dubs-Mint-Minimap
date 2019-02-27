@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimatomicsMinimap>When enabled the mini map requires a TACS (Target Acquisition and Communication System) from the mod Rimatomics in order to function</RimatomicsMinimap>
+  <CommsConsoleMap>When enabled the mini map requires a comms console in order to function</CommsConsoleMap>
+  <FreeMinimap>When enabled the mini map is free to use without requiring extra buildings</FreeMinimap>
+</LanguageData>
