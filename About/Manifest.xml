@@ -2,7 +2,7 @@
 
 <Manifest>
   <identifier>Dubs Mint Minimap</identifier>
-  <version>1.1.71</version>
-  <manifestUri>https://github.com/Dubwise56/Dubs-Mint-Minimap/master/About/Manifest.xml</manifestUri>
+  <version>1.1.218</version>
+  <manifestUri>https://raw.githubusercontent.com/Dubwise56/Dubs-Mint-Minimap/master/About/Manifest.xml</manifestUri>
   <downloadUri>https://github.com/Dubwise56/Dubs-Mint-Minimap/releases/latest</downloadUri>
 </Manifest>
