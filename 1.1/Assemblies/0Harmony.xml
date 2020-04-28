@@ -1373,6 +1373,11 @@
              <returns>A dictionary containing assembly version keyed by Harmony ID</returns>
             
         </member>
+        <member name="M:HarmonyLib.PatchProcessor.CreateILGenerator">
+            <summary>Creates a new <see cref="T:System.Reflection.Emit.ILGenerator">generator</see> to use when reading method bodies</summary>
+            <returns>A new <see cref="T:System.Reflection.Emit.ILGenerator"/></returns>
+            
+        </member>
         <member name="M:HarmonyLib.PatchProcessor.GetOriginalInstructions(System.Reflection.MethodBase,System.Reflection.Emit.ILGenerator)">
             <summary>Returns the methods unmodified list of code instructions</summary>
             <param name="original">The original method/constructor</param>
@@ -1390,6 +1395,13 @@
         <member name="M:HarmonyLib.PatchProcessor.ReadMethodBody(System.Reflection.MethodBase)">
              <summary>A low level way to read the body of a method. Used for quick searching in methods</summary>
              <param name="method">The original method</param>
+             <returns>All instructions as opcode/operand pairs</returns>
+            
+        </member>
+        <member name="M:HarmonyLib.PatchProcessor.ReadMethodBody(System.Reflection.MethodBase,System.Reflection.Emit.ILGenerator)">
+             <summary>A low level way to read the body of a method. Used for quick searching in methods</summary>
+             <param name="method">The original method</param>
+             <param name="generator">An existing generator that will be used to create all local variables and labels contained in the result</param>
              <returns>All instructions as opcode/operand pairs</returns>
             
         </member>
@@ -1765,7 +1777,7 @@
         </member>
         <member name="M:HarmonyLib.AccessTools.FieldRefAccess``2(System.String)">
              <summary>Creates an instance field reference</summary>
-             <typeparam name="T">The class the field is defined in or "object" if type cannot be accessed at compile time</typeparam>
+             <typeparam name="T">The class the field is defined in</typeparam>
              <typeparam name="F">The type of the field</typeparam>
              <param name="fieldName">The name of the field</param>
              <returns>A read and writable field reference delegate</returns>
@@ -1773,25 +1785,27 @@
         </member>
         <member name="M:HarmonyLib.AccessTools.FieldRefAccess``2(``0,System.String)">
              <summary>Creates an instance field reference for a specific instance</summary>
-             <typeparam name="T">The class the field is defined in or "object" if type cannot be accessed at compile time</typeparam>
+             <typeparam name="T">The class the field is defined in</typeparam>
              <typeparam name="F">The type of the field</typeparam>
              <param name="instance">The instance</param>
              <param name="fieldName">The name of the field</param>
              <returns>An readable/assignable object representing the field</returns>
             
         </member>
+        <member name="M:HarmonyLib.AccessTools.FieldRefAccess``1(System.Type,System.String)">
+             <summary>Creates an instance field reference delegate for a private type</summary>
+             <typeparam name="F">The type of the field</typeparam>
+             <param name="type">The class/type</param>
+             <param name="fieldName">The name of the field</param>
+             <returns>A read and writable <see cref="T:HarmonyLib.AccessTools.FieldRef`2"/> delegate</returns>
+            
+        </member>
         <member name="M:HarmonyLib.AccessTools.FieldRefAccess``2(System.Reflection.FieldInfo)">
-             <summary>Creates an instance field reference delegate</summary>
+             <summary>Creates an instance field reference delegate for a fieldinfo</summary>
              <typeparam name="T">The class the field is defined in or "object" if type cannot be accessed at compile time</typeparam>
              <typeparam name="F">The type of the field</typeparam>
              <param name="fieldInfo">The field of the field</param>
              <returns>A read and writable <see cref="T:HarmonyLib.AccessTools.FieldRef`2"/> delegate</returns>
-            
-        </member>
-        <member name="T:HarmonyLib.AccessTools.FieldRef`1">
-             <summary>A read/writable reference delegate to a static field</summary>
-             <typeparam name="F">The type of the field</typeparam>
-             <returns>An readable/assignable object representing the static field</returns>
             
         </member>
         <member name="M:HarmonyLib.AccessTools.StaticFieldRefAccess``2(System.String)">
@@ -1799,6 +1813,28 @@
              <typeparam name="T">The class the field is defined in or "object" if type cannot be accessed at compile time</typeparam>
              <typeparam name="F">The type of the field</typeparam>
              <param name="fieldName">The name of the field</param>
+             <returns>An readable/assignable object representing the static field</returns>
+            
+        </member>
+        <member name="M:HarmonyLib.AccessTools.StaticFieldRefAccess``1(System.Type,System.String)">
+             <summary>Creates a static field reference</summary>
+             <typeparam name="F">The type of the field</typeparam>
+             <param name="type">The class/type</param>
+             <param name="fieldName">The name of the field</param>
+             <returns>An readable/assignable object representing the static field</returns>
+            
+        </member>
+        <member name="M:HarmonyLib.AccessTools.StaticFieldRefAccess``2(System.Reflection.FieldInfo)">
+             <summary>Creates a static field reference</summary>
+             <typeparam name="T">The class the field is defined in or "object" if type cannot be accessed at compile time</typeparam>
+             <typeparam name="F">The type of the field</typeparam>
+             <param name="fieldInfo">The field</param>
+             <returns>An readable/assignable object representing the static field</returns>
+            
+        </member>
+        <member name="T:HarmonyLib.AccessTools.FieldRef`1">
+             <summary>A read/writable reference delegate to a static field</summary>
+             <typeparam name="F">The type of the field</typeparam>
              <returns>An readable/assignable object representing the static field</returns>
             
         </member>
@@ -2152,6 +2188,15 @@
              <param name="items">The items to add</param>
              <returns>The array containing the items</returns>
             
+        </member>
+        <member name="T:HarmonyLib.MethodBaseExtensions">
+            <summary>General extensions for collections</summary>
+            
+        </member>
+        <member name="M:HarmonyLib.MethodBaseExtensions.HasMethodBody(System.Reflection.MethodBase)">
+            <summary>Tests a class member if it has an IL method body (external methods for example don't have a body)</summary>
+            <param name="member">The member to test</param>
+            <returns>Returns true if the member has an IL body or false if not</returns>
         </member>
         <member name="T:HarmonyLib.FileLog">
             <summary>A file log for debugging</summary>
