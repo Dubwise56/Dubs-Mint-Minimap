@@ -26,10 +26,7 @@
 	<Minimap.RealTerrainColour>Real Terrain Colour</Minimap.RealTerrainColour>
 	<Minimap.RealPlantColour>Real Plant Colour</Minimap.RealPlantColour>
 	<Minimap.Markers>Markers</Minimap.Markers>
-	<Minimap.Colonists>Colonists</Minimap.Colonists>
 	<Minimap.Enemies>Enemies</Minimap.Enemies>
-	<Minimap.Animals>Animals</Minimap.Animals>
-	<Minimap.Prisoners>Prisoners</Minimap.Prisoners>
 	<Minimap.Friendlies>Friendlies</Minimap.Friendlies>
 	<Minimap.ColonyAnimals>Colony Animals</Minimap.ColonyAnimals>
 	<Minimap.Mapsize>Map Size</Minimap.Mapsize>

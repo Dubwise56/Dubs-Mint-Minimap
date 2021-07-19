@@ -1,4 +1,4 @@
-﻿﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	<Minimap.MintMinimapWiki>薄荷地图的维基百科</Minimap.MintMinimapWiki>
 	<Minimap.DubsModsDiscord>薄荷地图的Discord交流社区</Minimap.DubsModsDiscord>
@@ -13,7 +13,7 @@
 	<Minimap.AttackAlerts>攻击警报</Minimap.AttackAlerts>
 	<Minimap.Fires>火区</Minimap.Fires>
 	<Minimap.Hostiles>敌人</Minimap.Hostiles>
-	<Minimap.Animals>动物</Minimap.Animals>
+	<Minimap.Animals>野生动物</Minimap.Animals>
 	<Minimap.Predators>捕食者</Minimap.Predators>
 	<Minimap.Prisoners>囚犯</Minimap.Prisoners>
 	<Minimap.SmallArmsFire>子弹</Minimap.SmallArmsFire>
@@ -41,7 +41,7 @@
 	<Minimap.RimatomicsMinimap>选择此选项后，使用小地图需要来自Rimatomics mod的TACS（目标获取和通信系统）才能运行</Minimap.RimatomicsMinimap>
 	<Minimap.CommsConsoleMap>选择此选项后，使用小地图需要通信控制台才能运行</Minimap.CommsConsoleMap>
 	<Minimap.FreeMinimap>选择此选项后，使用小地图无需任何条件</Minimap.FreeMinimap>
-  <PinttoolTip>标记地图（若在多人游戏中，其他玩家亦可见）</PinttoolTip>
-  <MapAnchorTip>将小地图锁定到其当前大小和位置</MapAnchorTip>
-  <SneakyFinderTip>标记地图上与当前选择具有相同定义的所有事物</SneakyFinderTip>
+	<PinttoolTip>标记地图（若在多人游戏中，其他玩家亦可见）</PinttoolTip>
+	<MapAnchorTip>将小地图锁定到其当前大小和位置</MapAnchorTip>
+	<SneakyFinderTip>标记地图上与当前选择具有相同定义的所有事物</SneakyFinderTip>
 </LanguageData>
