@@ -13,7 +13,9 @@
 	<Minimap.AttackAlerts>攻击警报</Minimap.AttackAlerts>
 	<Minimap.Fires>火区</Minimap.Fires>
 	<Minimap.Hostiles>敌人</Minimap.Hostiles>
-	<Minimap.Animals>野生动物</Minimap.Animals>
+	<Minimap.Animals>动物</Minimap.Animals>
+	<Minimap.Wildlife>野生动物</Minimap.Wildlife>
+	<Minimap.ColonyAnimals>殖民地动物</Minimap.ColonyAnimals>
 	<Minimap.Predators>捕食者</Minimap.Predators>
 	<Minimap.Prisoners>囚犯</Minimap.Prisoners>
 	<Minimap.SmallArmsFire>子弹</Minimap.SmallArmsFire>
@@ -28,7 +30,6 @@
 	<Minimap.Colonists>殖民者</Minimap.Colonists>
 	<Minimap.Enemies>敌人</Minimap.Enemies>
 	<Minimap.Friendlies>盟友</Minimap.Friendlies>
-	<Minimap.ColonyAnimals>动物</Minimap.ColonyAnimals>
 	<Minimap.Mapsize>薄荷小地图尺寸</Minimap.Mapsize>
 	<Minimap.IconScale>启用项图标大小</Minimap.IconScale>
 	<Minimap.ColonistScale>殖民者图标大小</Minimap.ColonistScale>
