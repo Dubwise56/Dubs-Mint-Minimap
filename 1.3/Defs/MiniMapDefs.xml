@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>  
 
-  <MainButtonDef>
+  <!--<MainButtonDef>
     <defName>MintMinimap</defName>
     <label>Mint Mini Map</label>
     <description>Display a mini map for the current map</description>
@@ -11,7 +11,7 @@
     <validWithoutMap>false</validWithoutMap>
     <minimized>True</minimized>
     <iconPath>MMinimap/UI/MinimapToggle</iconPath>
-  </MainButtonDef>
+  </MainButtonDef>-->
 
   <KeyBindingCategoryDef>
     <defName>MintMinimap</defName>

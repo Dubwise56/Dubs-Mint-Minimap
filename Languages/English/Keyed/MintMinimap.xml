@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+	<Minimap.ShowButt>Show minimap button</Minimap.ShowButt>
+	<Minimap.MintMinimapDesc>Display a mini map for the current map</Minimap.MintMinimapDesc>
 	<Minimap.MintMinimapWiki>Mint Minimap Wiki</Minimap.MintMinimapWiki>
 	<Minimap.DubsModsDiscord>Dubs Mods Discord</Minimap.DubsModsDiscord>
 	<Minimap.Setkeybindinkeyboardconfig>Set keybind in keyboard config</Minimap.Setkeybindinkeyboardconfig>
