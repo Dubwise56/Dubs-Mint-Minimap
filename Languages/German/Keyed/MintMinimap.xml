@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Minimap.Coords>Koordinaten</Minimap.Coords>
+	<Minimap.ShowButt>Minikarten-Schaltfläche anzeigen</Minimap.ShowButt>
+	<Minimap.MintMinimapDesc>Zeigt eine Minikarte für die aktuelle Karte an</Minimap.MintMinimapDesc>
+	<Minimap.MintMinimapWiki>Mint Minimap Wiki</Minimap.MintMinimapWiki>
+	<Minimap.DubsModsDiscord>Dubs Mods Discord</Minimap.DubsModsDiscord>
+	<Minimap.Setkeybindinkeyboardconfig>Tastenkürzel in den Tastatureinstellungen festlegen</Minimap.Setkeybindinkeyboardconfig>
+	<Minimap.Pingbutton>Ping-Taste</Minimap.Pingbutton>
+	<Minimap.Mouse>Maus{0}</Minimap.Mouse>
+	<Minimap.None>Keine</Minimap.None>
+	<Minimap.Minimapmode>Modus</Minimap.Minimapmode>
+	<Minimap.Free>Frei</Minimap.Free>
+	<Minimap.Commsconsole>Kommunikationskonsole</Minimap.Commsconsole>
+	<Minimap.RimatomicsTACS>Rimatomics TACS</Minimap.RimatomicsTACS>
+	<Minimap.AttackAlerts>Angriffsalarme</Minimap.AttackAlerts>
+	<Minimap.Fires>Brände</Minimap.Fires>
+	<Minimap.Hostiles>Feinde</Minimap.Hostiles>
+	<Minimap.Animals>Tiere</Minimap.Animals>
+	<Minimap.Wildlife>Wildtiere</Minimap.Wildlife>
+	<Minimap.Predators>Raubtiere</Minimap.Predators>
+	<Minimap.Colonists>Kolonisten</Minimap.Colonists>
+	<Minimap.Prisoners>Gefangene</Minimap.Prisoners>
+	<Minimap.SmallArmsFire>Leichte Schusswaffen</Minimap.SmallArmsFire>
+	<Minimap.Projectiles>Projektile</Minimap.Projectiles>
+	<Minimap.FactionColours>Fraktionsfarben</Minimap.FactionColours>
+	<Minimap.Fogged>Vernebelt</Minimap.Fogged>
+	<Minimap.DrawPlants>Pflanzen anzeigen</Minimap.DrawPlants>
+	<Minimap.RealBuildingColour>Reale Gebäudefarben</Minimap.RealBuildingColour>
+	<Minimap.RealTerrainColour>Reale Geländefarben</Minimap.RealTerrainColour>
+	<Minimap.RealPlantColour>Reale Pflanzenfarben</Minimap.RealPlantColour>
+	<Minimap.Markers>Markierungen</Minimap.Markers>
+	<Minimap.Enemies>Feinde</Minimap.Enemies>
+	<Minimap.Friendlies>Verbündete</Minimap.Friendlies>
+	<Minimap.ColonyAnimals>Kolonietiere</Minimap.ColonyAnimals>
+	<Minimap.Mapsize>Kartengröße</Minimap.Mapsize>
+	<Minimap.IconScale>Symbolgröße</Minimap.IconScale>
+	<Minimap.ColonistScale>Kolonistengröße</Minimap.ColonistScale>
+	<Minimap.Ground>Boden</Minimap.Ground>
+	<Minimap.Plants>Pflanzen</Minimap.Plants>
+	<Minimap.Edifice>Gebäude</Minimap.Edifice>
+	<Minimap.Water>Wasser</Minimap.Water>
+	<Minimap.Fog>Nebel</Minimap.Fog>
+	<Minimap.NoSignal>Kein Signal</Minimap.NoSignal>
+	<Minimap.RimatomicsMinimap>Wenn aktiviert, erfordert die Minikarte ein TACS (Zielerfassungs- und Kommunikationssystem) aus dem Mod Rimatomics, um zu funktionieren</Minimap.RimatomicsMinimap>
+	<Minimap.CommsConsoleMap>Wenn aktiviert, erfordert die Minikarte eine Kommunikationskonsole, um zu funktionieren</Minimap.CommsConsoleMap>
+	<Minimap.FreeMinimap>Wenn aktiviert, kann die Minikarte frei verwendet werden, ohne zusätzliche Gebäude zu benötigen</Minimap.FreeMinimap>
+	<PinttoolTip>Pinge einen Ort auf der Karte an, den andere Spieler im Multiplayer sehen können</PinttoolTip>
+	<MapAnchorTip>Fixiert die Minikarte in ihrer aktuellen Größe und Position</MapAnchorTip>
+	<SneakyFinderTip>Markiert alle Objekte auf der Karte, die denselben Def wie die aktuelle Auswahl haben</SneakyFinderTip>
+</LanguageData>
