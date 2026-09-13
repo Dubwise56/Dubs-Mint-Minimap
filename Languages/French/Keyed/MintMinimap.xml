@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Minimap.Coords>Coordonnées</Minimap.Coords>
+	<Minimap.ShowButt>Afficher bouton minimap</Minimap.ShowButt>
+	<Minimap.MintMinimapDesc>Affiche une minimap pour la carte courante</Minimap.MintMinimapDesc>
+  <Minimap.MintMinimapWiki>Wiki Mint Minimap</Minimap.MintMinimapWiki>
+	<Minimap.DubsModsDiscord>Discord Dubs Mods</Minimap.DubsModsDiscord>
+	<Minimap.Setkeybindinkeyboardconfig>Les raccourcis clavier sont à définir dans la configuration du clavier</Minimap.Setkeybindinkeyboardconfig>
+	<Minimap.Pingbutton>Bouton marquage</Minimap.Pingbutton>
+	<Minimap.Mouse>Souris{0}</Minimap.Mouse>
+	<Minimap.None>Rien</Minimap.None>
+	<Minimap.Minimapmode>Mode minimap</Minimap.Minimapmode>
+	<Minimap.Free>Libre</Minimap.Free>
+	<Minimap.Commsconsole>Console de com</Minimap.Commsconsole>
+	<Minimap.RimatomicsTACS>TACS Rimatomics</Minimap.RimatomicsTACS>
+	<Minimap.AttackAlerts>Alertes d'attaque</Minimap.AttackAlerts>
+	<Minimap.Fires>Feux</Minimap.Fires>
+	<Minimap.Hostiles>Hostiles</Minimap.Hostiles>
+	<Minimap.Animals>Animaux</Minimap.Animals>
+	<Minimap.Wildlife>Animaux sauvages</Minimap.Wildlife>
+	<Minimap.Predators>Prédateurs</Minimap.Predators>
+	<Minimap.Colonists>Colons</Minimap.Colonists>
+	<Minimap.Prisoners>Prisoniers</Minimap.Prisoners>
+	<Minimap.SmallArmsFire>Tirs d'armes légères</Minimap.SmallArmsFire>
+	<Minimap.Projectiles>Projectiles</Minimap.Projectiles>
+	<Minimap.FactionColours>Couleurs de faction</Minimap.FactionColours>
+	<Minimap.Fogged>Brouillard</Minimap.Fogged>
+	<Minimap.DrawPlants>Dessiner plantes</Minimap.DrawPlants>
+	<Minimap.RealBuildingColour>Couleur réelle des bâtiments</Minimap.RealBuildingColour>
+	<Minimap.RealTerrainColour>Couleur réelle du terrain</Minimap.RealTerrainColour>
+	<Minimap.RealPlantColour>Couleur réelle des plantes</Minimap.RealPlantColour>
+	<Minimap.Markers>Marqueurs</Minimap.Markers>
+	<Minimap.Enemies>Ennemis</Minimap.Enemies>
+	<Minimap.Friendlies>Amicaux</Minimap.Friendlies>
+	<Minimap.ColonyAnimals>Animaux de la colonie</Minimap.ColonyAnimals>
+	<Minimap.Mapsize>Taille de la carte</Minimap.Mapsize>
+	<Minimap.IconScale>Taille des icônes</Minimap.IconScale>
+	<Minimap.ColonistScale>Taille des colons</Minimap.ColonistScale>
+	<Minimap.Ground>Sol</Minimap.Ground>
+	<Minimap.Plants>Plantes</Minimap.Plants>
+	<Minimap.Edifice>Bâtiments</Minimap.Edifice>
+	<Minimap.Water>Eau</Minimap.Water>
+	<Minimap.Fog>Brouillard</Minimap.Fog>
+	<Minimap.NoSignal>Aucun signal</Minimap.NoSignal>
+	<Minimap.RimatomicsMinimap>Quand activé, la mini map a besoin d'un TACS (Target Acquisition and Communication System) du mod Rimatomics pour fonctionner</Minimap.RimatomicsMinimap>
+	<Minimap.CommsConsoleMap>Quand activée la mini map a besoin d'une console de com pour fonctionner</Minimap.CommsConsoleMap>
+	<Minimap.FreeMinimap>Quand activée la minimap est utilisable sans avoir besoin de construire un bâtiment spécifique</Minimap.FreeMinimap>
+  <PinttoolTip>Marque une position sur la carte que les autres joueurs peuvent voir en multijoueur</PinttoolTip>
+  <MapAnchorTip>Verrouille la taille et la position de la minimap</MapAnchorTip>
+  <SneakyFinderTip>Affiche sur la carte tous les objets identiques à la sélection</SneakyFinderTip>
+</LanguageData>
