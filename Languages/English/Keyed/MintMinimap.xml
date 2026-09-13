@@ -6,7 +6,7 @@
 	<Minimap.MintMinimapWiki>Mint Minimap Wiki</Minimap.MintMinimapWiki>
 	<Minimap.DubsModsDiscord>Dubs Mods Discord</Minimap.DubsModsDiscord>
 	<Minimap.Setkeybindinkeyboardconfig>Set keybind in keyboard config</Minimap.Setkeybindinkeyboardconfig>
-	<Minimap.Pingbutton>Ping button</Minimap.Pingbutton>
+	<Minimap.Pingbutton>Ping mouse button</Minimap.Pingbutton>
 	<Minimap.Mouse>Mouse{0}</Minimap.Mouse>
 	<Minimap.None>None</Minimap.None>
 	<Minimap.Minimapmode>Minimap mode</Minimap.Minimapmode>
@@ -22,7 +22,7 @@
 	<Minimap.Colonists>Colonists</Minimap.Colonists>
 	<Minimap.Prisoners>Prisoners</Minimap.Prisoners>
 	<Minimap.SmallArmsFire>Small Arms Fire</Minimap.SmallArmsFire>
-	<Minimap.Projectiles>Projectiles</Minimap.Projectiles>
+	<Minimap.Projectiles>Overhead projectiles (mortars)</Minimap.Projectiles>
 	<Minimap.FactionColours>Faction Colours</Minimap.FactionColours>
 	<Minimap.Fogged>Fogged</Minimap.Fogged>
 	<Minimap.DrawPlants>Draw Plants</Minimap.DrawPlants>
@@ -33,7 +33,7 @@
 	<Minimap.Enemies>Enemies</Minimap.Enemies>
 	<Minimap.Friendlies>Friendlies</Minimap.Friendlies>
 	<Minimap.ColonyAnimals>Colony Animals</Minimap.ColonyAnimals>
-	<Minimap.Mapsize>Map Size</Minimap.Mapsize>
+	<Minimap.Mapsize>Minimap Size</Minimap.Mapsize>
 	<Minimap.IconScale>Icon Scale</Minimap.IconScale>
 	<Minimap.ColonistScale>Colonist Scale</Minimap.ColonistScale>
 	<Minimap.Ground>Ground</Minimap.Ground>
@@ -42,10 +42,10 @@
 	<Minimap.Water>Water</Minimap.Water>
 	<Minimap.Fog>Fog</Minimap.Fog>
 	<Minimap.NoSignal>No Signal</Minimap.NoSignal>
-	<Minimap.RimatomicsMinimap>When enabled the mini map requires a TACS (Target Acquisition and Communication System) from the mod Rimatomics in order to function</Minimap.RimatomicsMinimap>
-	<Minimap.CommsConsoleMap>When enabled the mini map requires a comms console in order to function</Minimap.CommsConsoleMap>
+	<Minimap.RimatomicsMinimap>When enabled the mini map requires an active TACS (Target Acquisition and Communication System) from the Rimatomics mod in order to function</Minimap.RimatomicsMinimap>
+	<Minimap.CommsConsoleMap>When enabled the mini map requires a powered comms console in order to function</Minimap.CommsConsoleMap>
 	<Minimap.FreeMinimap>When enabled the mini map is free to use without requiring extra buildings</Minimap.FreeMinimap>
-  <PinttoolTip>Ping a location on the map which other players can see in multiplayer</PinttoolTip>
-  <MapAnchorTip>Lock the minimap to its current size and location</MapAnchorTip>
-  <SneakyFinderTip>Mark all things on the map that are of the same def as the current selection</SneakyFinderTip>
+	<PinttoolTip>Ping a location on the map which other players can see in multiplayer</PinttoolTip>
+	<MapAnchorTip>Anchor the camera: save the current camera position and zoom, then click the minimap to jump back to it</MapAnchorTip>
+	<SneakyFinderTip>Mark all things on the map that are the same type as the selected thing</SneakyFinderTip>
 </LanguageData>

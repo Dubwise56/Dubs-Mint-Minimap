@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <Minimap.Coords>좌표</Minimap.Coords>
+  <Minimap.ShowButt>미니맵 버튼 표시</Minimap.ShowButt>
+  <Minimap.MintMinimapDesc>현재 맵의 미니맵을 표시합니다</Minimap.MintMinimapDesc>
   <Minimap.MintMinimapWiki>민트 미니맵 위키</Minimap.MintMinimapWiki>
   <Minimap.DubsModsDiscord>Dubs Mods 디스코드</Minimap.DubsModsDiscord>
   <Minimap.Setkeybindinkeyboardconfig>키보드 설정에서 단축키 설정</Minimap.Setkeybindinkeyboardconfig>
-  <Minimap.Pingbutton>핑 버튼</Minimap.Pingbutton>
+  <Minimap.Pingbutton>핑 마우스 버튼</Minimap.Pingbutton>
   <Minimap.Mouse>마우스{0}</Minimap.Mouse>
   <Minimap.None>없음</Minimap.None>
   <Minimap.Minimapmode>미니맵 모드</Minimap.Minimapmode>
@@ -19,7 +22,7 @@
   <Minimap.Colonists>정착민</Minimap.Colonists>
   <Minimap.Prisoners>죄수</Minimap.Prisoners>
   <Minimap.SmallArmsFire>총탄</Minimap.SmallArmsFire>
-  <Minimap.Projectiles>투사체</Minimap.Projectiles>
+  <Minimap.Projectiles>공중 투사체 (박격포탄)</Minimap.Projectiles>
   <Minimap.FactionColours>세력 색깔</Minimap.FactionColours>
   <Minimap.Fogged>안개</Minimap.Fogged>
   <Minimap.DrawPlants>식물 그리기</Minimap.DrawPlants>
@@ -30,7 +33,7 @@
   <Minimap.Enemies>적</Minimap.Enemies>
   <Minimap.Friendlies>동맹</Minimap.Friendlies>
   <Minimap.ColonyAnimals>정착지 동물</Minimap.ColonyAnimals>
-  <Minimap.Mapsize>맵 크기</Minimap.Mapsize>
+  <Minimap.Mapsize>미니맵 크기</Minimap.Mapsize>
   <Minimap.IconScale>아이콘 배율</Minimap.IconScale>
   <Minimap.ColonistScale>정착민 배율</Minimap.ColonistScale>
   <Minimap.Ground>땅</Minimap.Ground>
@@ -39,10 +42,10 @@
   <Minimap.Water>물</Minimap.Water>
   <Minimap.Fog>안개</Minimap.Fog>
   <Minimap.NoSignal>신호 없음</Minimap.NoSignal>
-  <Minimap.RimatomicsMinimap>활성화하면 Rimatomics 모드의 TACS (Target Acquisition and Communication System)가 있어야 작동합니다.</Minimap.RimatomicsMinimap>
-  <Minimap.CommsConsoleMap>활성화하면 통신기가 있어야 작동합니다.</Minimap.CommsConsoleMap>
+  <Minimap.RimatomicsMinimap>활성화하면 Rimatomics 모드의 작동 중인 TACS (Target Acquisition and Communication System)가 있어야 작동합니다.</Minimap.RimatomicsMinimap>
+  <Minimap.CommsConsoleMap>활성화하면 전원이 공급되는 통신기가 있어야 작동합니다.</Minimap.CommsConsoleMap>
   <Minimap.FreeMinimap>활성화하면 별도의 건물을 짓지 않고도 자유롭게 사용할 수 있습니다.</Minimap.FreeMinimap>
   <PinttoolTip>멀티플레이 때 다른 사람들이 볼 수 있도록 핑을 날립니다</PinttoolTip>
-  <MapAnchorTip>미니맵을 현재 크기와 위치로 고정합니다.</MapAnchorTip>
-  <SneakyFinderTip>현재 선택한 것과 같은 정의를 가진 모든 것을 표시합니다</SneakyFinderTip>
+  <MapAnchorTip>카메라 고정: 현재 카메라 위치와 줌을 저장하고, 이후 미니맵을 클릭하면 그 위치로 돌아갑니다.</MapAnchorTip>
+  <SneakyFinderTip>현재 선택한 것과 같은 종류의 모든 사물을 지도에 표시합니다</SneakyFinderTip>
 </LanguageData>
