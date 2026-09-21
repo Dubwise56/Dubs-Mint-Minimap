@@ -29,6 +29,20 @@
   <Minimap.RealTerrainColour>실제 지형 색</Minimap.RealTerrainColour>
   <Minimap.RealPlantColour>실제 식물 색</Minimap.RealPlantColour>
   <Minimap.Markers>마커</Minimap.Markers>
+  <!-- EN: Dot with centre -->
+  <Minimap.MarkerDot>중심점이 있는 점</Minimap.MarkerDot>
+  <!-- EN: Dot -->
+  <Minimap.MarkerPlainDot>점</Minimap.MarkerPlainDot>
+  <!-- EN: Diamond -->
+  <Minimap.MarkerDiamond>마름모</Minimap.MarkerDiamond>
+  <!-- EN: Egg -->
+  <Minimap.MarkerEgg>달걀</Minimap.MarkerEgg>
+  <!-- EN: Ring -->
+  <Minimap.MarkerRing>고리</Minimap.MarkerRing>
+  <!-- EN: Silhouette -->
+  <Minimap.MarkerSilhouette>실루엣</Minimap.MarkerSilhouette>
+  <!-- EN: Predator icon -->
+  <Minimap.MarkerPredator>육식 동물 아이콘</Minimap.MarkerPredator>
   <Minimap.Enemies>적</Minimap.Enemies>
   <Minimap.Friendlies>동맹</Minimap.Friendlies>
   <Minimap.ColonyAnimals>정착지 동물</Minimap.ColonyAnimals>

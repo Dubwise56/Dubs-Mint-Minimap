@@ -29,6 +29,13 @@
 	<Minimap.RealTerrainColour>Real Terrain Colour</Minimap.RealTerrainColour>
 	<Minimap.RealPlantColour>Real Plant Colour</Minimap.RealPlantColour>
 	<Minimap.Markers>Markers</Minimap.Markers>
+	<Minimap.MarkerDot>Dot with centre</Minimap.MarkerDot>
+	<Minimap.MarkerPlainDot>Dot</Minimap.MarkerPlainDot>
+	<Minimap.MarkerDiamond>Diamond</Minimap.MarkerDiamond>
+	<Minimap.MarkerEgg>Egg</Minimap.MarkerEgg>
+	<Minimap.MarkerRing>Ring</Minimap.MarkerRing>
+	<Minimap.MarkerSilhouette>Silhouette</Minimap.MarkerSilhouette>
+	<Minimap.MarkerPredator>Predator icon</Minimap.MarkerPredator>
 	<Minimap.Enemies>Enemies</Minimap.Enemies>
 	<Minimap.Friendlies>Friendlies</Minimap.Friendlies>
 	<Minimap.ColonyAnimals>Colony Animals</Minimap.ColonyAnimals>

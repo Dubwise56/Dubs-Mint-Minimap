@@ -30,6 +30,20 @@
 	<Minimap.RealTerrainColour>真实地形颜色</Minimap.RealTerrainColour>
 	<Minimap.RealPlantColour>真实植物颜色</Minimap.RealPlantColour>
 	<Minimap.Markers>标记</Minimap.Markers>
+	<!-- EN: Dot with centre -->
+	<Minimap.MarkerDot>带中心点的圆点</Minimap.MarkerDot>
+	<!-- EN: Dot -->
+	<Minimap.MarkerPlainDot>圆点</Minimap.MarkerPlainDot>
+	<!-- EN: Diamond -->
+	<Minimap.MarkerDiamond>菱形</Minimap.MarkerDiamond>
+	<!-- EN: Egg -->
+	<Minimap.MarkerEgg>蛋形</Minimap.MarkerEgg>
+	<!-- EN: Ring -->
+	<Minimap.MarkerRing>圆环</Minimap.MarkerRing>
+	<!-- EN: Silhouette -->
+	<Minimap.MarkerSilhouette>剪影</Minimap.MarkerSilhouette>
+	<!-- EN: Predator icon -->
+	<Minimap.MarkerPredator>捕食者图标</Minimap.MarkerPredator>
 	<Minimap.Colonists>殖民者</Minimap.Colonists>
 	<Minimap.Enemies>敌人</Minimap.Enemies>
 	<Minimap.Friendlies>盟友</Minimap.Friendlies>
